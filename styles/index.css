@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Bitter:wght@400;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Nunito:wght@400;800&family=Poppins:wght@800&display=swap');
+/*formatação padrão*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*nav*/
+#my-nav{
+  background-color: #fcb045;
+  height: 6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+#container-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  margin: 0px 2rem 0px 2rem;
+}
+
+.image{
+  width: 4rem;
+}
+
+#subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  /*margin-left: 1rem;*/
+}
+
+/*first section - phrase + cat image*/
+#first-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  height: 85vh;
+}
+
+#phrase{
+  font-family: 'B612', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 3rem;
+
+  margin-top: 4rem;
+}
+
+#cat-with-phrase{
+  width: 20rem;
+
+  margin-top: 10%;
+}
+
+/*second section - cards*/
+#second-section{
+  display: flex;
+
+}
+
+.other-texts{
+  font-family: 'Nunito', sans-serif;
+}
+
+h2.other-texts{
+  font-size: 3rem;
+}
+
+p.other-texts{
+font-size: 1.2rem;
+}
+
+/*footer*/
+footer{
+  background-color: #fd3e1d;
+
+  padding: 3rem 0 3rem 0;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.image-footer{
+  width: 1.5rem;
+  margin: 0px 1rem 0 1rem;
+}
+
+footer p{
+  font-family: 'Poppins', sans-serif;
+}
