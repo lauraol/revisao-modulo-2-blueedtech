@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Bitter:wght@400;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Nunito:wght@400;800&family=Poppins:wght@800&display=swap');
+
 /*formatação padrão*/
 *{
   padding: 0;
@@ -61,7 +62,7 @@
 /*second section - cards*/
 #second-section{
   display: flex;
-
+  background-color: #F9EEE2;
 }
 
 .other-texts{
@@ -74,6 +75,102 @@ h2.other-texts{
 
 p.other-texts{
 font-size: 1.2rem;
+}
+
+/*form*/
+.title-section-form,
+.text-form,
+.first-text-form{
+  text-align: center;
+}
+
+.title-section-form{
+  margin: 5% 0 2% 0;
+}
+
+.text-form{
+  margin-bottom: 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.container-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 20% 0 20%;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button{
+  display: block;
+}
+
+.form label{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+} 
+
+.form input,
+.form textarea{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  border: solid 1px #696969;
+  border-radius: 8px;
+
+  margin-bottom: 1rem;
+}
+
+.form input:focus,
+.form textarea:focus{
+  outline: none;
+  border-color: #09d;
+
+  box-shadow: 0 0 0 1px #4dc8ff;
+}
+
+.form input{
+  min-height: 2rem;
+
+  padding: 0 0 0 0.5rem;
+}
+
+.form textarea{
+  min-height: 15rem;
+  resize: vertical;
+
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.form textarea::placeholder{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+
+.form button{
+  border: none;
+  border-radius: 8px;
+  background-color: #2572E8;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  margin-bottom: 5%;
+  padding: 1rem;
+
+  width: 20%;
+
+  cursor: pointer;
 }
 
 /*footer*/

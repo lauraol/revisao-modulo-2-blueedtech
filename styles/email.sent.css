@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Bitter:wght@400;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Nunito:wght@400;800&family=Poppins:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 100vh;
+
+  background-color: #F9EEE2;
+}
+
+.back-to-home{
+  width: 3.5rem;
+
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.container-byebye{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'B612', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 4rem;
+
+  margin-bottom: 0.5rem;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}

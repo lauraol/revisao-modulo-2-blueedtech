@@ -43,6 +43,37 @@
         <div class="container-cards"></div>
       </section>
     </main>
+    <section id="form">
+      <h2 class="other-texts title-section-form">Oi! Quer tc? &#129322</h2>
+      <p  class="other-texts first-text-form">Se o conselhinho do dia e as fotos de gatinhos não foram o suficiente para te animar, sinto muito. Então entre em contato comigo, pode escrever sobre o seu dia ou me usar de diário, sem julgamentos.</p>
+      <p  class="other-texts text-form">Ah, e me avise se quiser uma resposta, tá bom? Até mais! </p>
+      <div class="container-form">
+        <form
+          action="https://formsubmit.co/lauroutestesdev@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Escreva aqui sua mensagem:</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Digite aqui tudo que está no seu coraçãozinho, sem julgamentos pô..."
+            required
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5501/pages/email-sent.html"
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
     <footer>
       <img
         class="image-footer"

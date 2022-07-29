@@ -16,7 +16,7 @@ async function getDataTheApiCat() {
 
   const data = await resp.json();
 
-  console.log("dados da api de gatinho: ", data);
+  //console.log("dados da api de gatinho: ", data);
 
   document.getElementById("cat-with-phrase").src = data[0].url;
 }
